@@ -149,7 +149,7 @@ function M.run(c)
     },
     special = {
       -- scheme = { fg = c.primary_bg, bg = c.match },
-      scheme = { fg = c.primary_bg, bg = c.primary_fg },
+      scheme = { fg = c.primary_bg, bg = c.primary_fg, bold = true },
       group = {
         "SpecialKey",
       },
