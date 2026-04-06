@@ -28,4 +28,4 @@ local c = {
   match         = "#FFF5EE", -- smoke
 }
 
-require("lua.theme").run(c)
+require("theme").run(c)

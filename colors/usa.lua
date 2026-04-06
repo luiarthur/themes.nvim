@@ -28,4 +28,4 @@ local c = {
   match         = "#EDF2F4", --platinum
 }
 
-require("lua.theme").run(c)
+require("theme").run(c)
