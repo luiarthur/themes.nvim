@@ -1,21 +1,4 @@
--- Author: Arthur Lui
--- Date: 6 April, 2026
--- Inspired by: https://coolors.co/palettes/popular/red
-
--- Get help on each option in nvim by (e.g. help on SpellBad):
--- :hi SpellBad
--- :help SpellBad
--- :lua vim.show_pos()
-
-vim.cmd("highlight clear")
-vim.opt.termguicolors = true
-if vim.fn.exists("syntax_on") == 1 then
-  vim.cmd("syntax reset")
-end
-vim.g.colors_name = "noir"
-
--- Colors
-local c = {
+local color_scheme = {
   primary_bg    = "#161A1D", -- carbon
   cursor_line   = "#3B3B3B", -- darkgrey
 
@@ -28,4 +11,4 @@ local c = {
   special       = "#FFF5EE", -- smoke
 }
 
-require("theme").run(c)
+require("theme").run("noir", color_scheme)

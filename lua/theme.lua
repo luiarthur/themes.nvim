@@ -1,6 +1,13 @@
 local M = {}
 
-function M.run(c)
+function M.run(color_scheme_name, c)
+  vim.cmd("highlight clear")
+  vim.opt.termguicolors = true
+  if vim.fn.exists("syntax_on") == 1 then
+    vim.cmd("syntax reset")
+  end
+  vim.g.colors_name = color_scheme_name
+
   local function set(group, options)
     vim.api.nvim_set_hl(0, group, options)
   end

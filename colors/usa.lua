@@ -1,21 +1,4 @@
--- Author: Arthur Lui
--- Date: 6 April, 2026
--- Inspired by: https://coolors.co
-
--- Get help on each option in nvim by (e.g. help on SpellBad):
--- :hi SpellBad
--- :help SpellBad
--- :lua vim.show_pos()
-
-vim.cmd("highlight clear")
-vim.opt.termguicolors = true
-if vim.fn.exists("syntax_on") == 1 then
-  vim.cmd("syntax reset")
-end
-vim.g.colors_name = "usa"
-
--- Colors
-local c = {
+local color_scheme = {
   primary_bg    = "#161A1D", -- soft black
   cursor_line   = "#102b3f", -- deep space blue
 
@@ -28,4 +11,4 @@ local c = {
   special       = "#EDF2F4", --platinum
 }
 
-require("theme").run(c)
+require("theme").run("usa", color_scheme)
