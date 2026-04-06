@@ -1,6 +1,6 @@
 -- Author: Arthur Lui
 -- Date: 6 April, 2026
--- Inspired by: https://coolors.co/palettes/popular/red
+-- Inspired by: https://coolors.co
 
 -- Get help on each option in nvim by (e.g. help on SpellBad):
 -- :hi SpellBad
@@ -12,20 +12,20 @@ vim.opt.termguicolors = true
 if vim.fn.exists("syntax_on") == 1 then
   vim.cmd("syntax reset")
 end
-vim.g.colors_name = "noir"
+vim.g.colors_name = "usa"
 
 -- Colors
 local c = {
-  primary_bg    = "#161A1D", -- carbon
-  cursor_line   = "#3B3B3B", -- darkgrey
+  primary_bg    = "#161A1D", -- soft black
+  cursor_line   = "#102b3f", -- deep space blue
 
-  literal       = "#FF6961", -- patel red
-  function_name = "#DCAE96", -- pink
+  literal       = "#EF233C", -- red
+  function_name = "#61A1D7", -- blue grey
 
-  comment       = "#696969", -- grey
-  primary_fg    = "#ADADAD", -- lightgrey
+  comment       = "#5c677d", -- blue slate
+  primary_fg    = "#979dac", -- cool steel
 
-  match         = "#FFF5EE", -- smoke
+  match         = "#EDF2F4", --platinum
 }
 
 local function set(group, options)
