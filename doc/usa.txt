@@ -10,7 +10,7 @@
 * Date: 6 April, 2026
 * Repo: https://github.com/luiarthur/themes.nvim
 
-To use the color scheme, execute: `:colorscheme usa in an nvim session.
+To use the color scheme, execute: `:colorscheme usa` in an nvim session.
 
 To apply the color scheme at startup, add the following to
 `~/.config/nvim/init.lua`: `vim.cmd.colorscheme("usa")`.
