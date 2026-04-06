@@ -19,7 +19,7 @@ To apply the color scheme, add the following to ~/.config/nvim/init.lua`:
 Then, execute `:colorscheme noir` in an nvim session.
 
 Get help on each option in nvim by (e.g. help on SpellBad):
->
+>vim
  :hi SpellBad
  :help SpellBad
  :lua vim.show_pos()

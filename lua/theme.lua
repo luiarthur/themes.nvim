@@ -10,9 +10,9 @@ function M.run(c)
   set("SpellRare", { fg = c.literal })
   set("Constant", { fg = c.primary_fg })
 
-  set("CurSearch", { fg = c.primary_bg, bg = c.match, bold = true })
-  set("PmenuThumb", { fg = c.primary_bg, bg = c.match })
-  set("WildMenu", { fg = c.primary_bg, bg = c.match })
+  set("CurSearch", { fg = c.primary_bg, bg = c.special, bold = true })
+  set("PmenuThumb", { fg = c.primary_bg, bg = c.special })
+  set("WildMenu", { fg = c.primary_bg, bg = c.special })
   set("Underlined", { fg = c.primary_fg, underline = true })
 
   set("DiagnosticWarn", { fg = c.function_name, italic = true })
@@ -57,7 +57,7 @@ function M.run(c)
       },
     },
     search = {
-      scheme = { fg = c.match, bg = c.comment, bold = true },
+      scheme = { fg = c.special, bg = c.comment, bold = true },
       group = {
         "Search",
         "Pmenu",
@@ -89,13 +89,13 @@ function M.run(c)
       }
     },
     match = {
-      scheme = { fg = c.match },
+      scheme = { fg = c.special },
       group = {
         "MatchParen",
       },
     },
     define = {
-      scheme = { fg = c.primary_fg, bold = true },
+      scheme = { fg = c.special, bold = true },
       group = {
         "Define",
         "DiffAdd",
@@ -139,7 +139,7 @@ function M.run(c)
       },
     },
     visual = {
-      scheme = { fg = c.primary_bg, bg = c.match, bold = true },
+      scheme = { fg = c.primary_bg, bg = c.special, bold = true },
       group = {
         "PmenuSbar",
         "PmenuSel",
@@ -148,14 +148,13 @@ function M.run(c)
       },
     },
     special = {
-      -- scheme = { fg = c.primary_bg, bg = c.match },
       scheme = { fg = c.primary_bg, bg = c.primary_fg, bold = true },
       group = {
         "SpecialKey",
       },
     },
     diff = {
-      scheme = { fg = c.primary_bg, bg = c.match, bold = true },
+      scheme = { fg = c.primary_bg, bg = c.special, bold = true },
       group = {
         "DiffChange",
         "DiffChanged",

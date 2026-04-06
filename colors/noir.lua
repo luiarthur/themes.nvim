@@ -25,7 +25,7 @@ local c = {
   comment       = "#696969", -- grey
   primary_fg    = "#ADADAD", -- lightgrey
 
-  match         = "#FFF5EE", -- smoke
+  special       = "#FFF5EE", -- smoke
 }
 
 require("theme").run(c)

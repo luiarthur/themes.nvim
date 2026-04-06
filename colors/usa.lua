@@ -25,7 +25,7 @@ local c = {
   comment       = "#5c677d", -- blue slate
   primary_fg    = "#979dac", -- cool steel
 
-  match         = "#EDF2F4", --platinum
+  special       = "#EDF2F4", --platinum
 }
 
 require("theme").run(c)
