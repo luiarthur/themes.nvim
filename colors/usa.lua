@@ -1,5 +1,5 @@
 local color_scheme = {
-  primary_bg    = "#161A1D", -- soft black
+  primary_bg    = "#161A1D", -- carbon
   cursor_line   = "#102b3f", -- deep space blue
 
   literal       = "#EF233C", -- red
