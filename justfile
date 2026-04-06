@@ -6,3 +6,7 @@ demo-py-script := source_dir() / "tests/test.py"
 [no-cd]
 vi scheme='sunset' file=demo-py-script:
     nvim --cmd "set rtp+={{ justfile_dir() }}" +"colorscheme {{ scheme }}" {{ file }}
+
+# Bump version
+bump kind:
+    bump {{ kind }} -p
