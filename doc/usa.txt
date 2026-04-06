@@ -1,18 +1,28 @@
-*usa*  Color scheme with red, white, and blue
+*usa* Color scheme with red, white, and blue
 >
-  _   _ ____    _
- | | | / ___|  / \
- | | | \___ \ / _ \
- | |_| |___) / ___ \
-  \___/|____/_/   \_\
+   __  ___________ _
+  / / / / ___/ __ `/
+ / /_/ (__  ) /_/ /
+ \__,_/____/\__,_/
 <
 * Author: Arthur Lui
 * Date: 6 April, 2026
 * Repo: https://github.com/luiarthur/themes.nvim
+* Inspired by: https://coolors.co/palettes
 
-To use the color scheme, execute: `:colorscheme usa` in an nvim session.
+To apply the color scheme, add the following to ~/.config/nvim/init.lua`:
+>lua
+ vim.pack.add({
+   "https://github.com/luiarthur/themes.nvim",
+   -- optionally, add other packages
+ })
+<
+Then, execute `:colorscheme usa` in an nvim session.
 
-To apply the color scheme at startup, add the following to
-`~/.config/nvim/init.lua`: `vim.cmd.colorscheme("usa")`.
-
+Get help on each option in nvim by (e.g. help on SpellBad):
+>
+ :hi SpellBad
+ :help SpellBad
+ :lua vim.show_pos()
+<
 vim:tw=80:ft=help

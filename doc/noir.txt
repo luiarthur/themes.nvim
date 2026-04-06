@@ -1,4 +1,4 @@
-*noir*  Color scheme with mostly reds and greys
+*noir* Color scheme with mostly reds and greys
 >
  _  _ ____ _ ____  _  _ _ _  _ 
  |\ | |  | | |__/  |  | | |\/|
@@ -7,10 +7,21 @@
 * Author: Arthur Lui
 * Date: 6 April, 2026
 * Repo: https://github.com/luiarthur/themes.nvim
+* Inspired by: https://coolors.co/palettes/popular/red
 
-To use the color scheme, execute: `:colorscheme noir` in an nvim session.
+To apply the color scheme, add the following to ~/.config/nvim/init.lua`:
+>lua
+ vim.pack.add({
+   "https://github.com/luiarthur/themes.nvim",
+   -- optionally, add other packages
+ })
+<
+Then, execute `:colorscheme noir` in an nvim session.
 
-To apply the color scheme at startup, add the following to
-`~/.config/nvim/init.lua`: `vim.cmd.colorscheme("noir")`.
-
+Get help on each option in nvim by (e.g. help on SpellBad):
+>
+ :hi SpellBad
+ :help SpellBad
+ :lua vim.show_pos()
+<
 vim:tw=80:ft=help
