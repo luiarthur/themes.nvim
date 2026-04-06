@@ -35,7 +35,6 @@ set("CurSearch", { fg = c.carbon, bg = c.smoke, bold = true })
 set("PmenuThumb", { fg = c.carbon, bg = c.smoke })
 set("WildMenu", { fg = c.carbon, bg = c.smoke })
 set("Underlined", { fg = c.lightgrey, underline = true })
-set("CursorLine", { bg = c.darkgrey })
 
 set("DiagnosticWarn", { fg = c.pink, italic = true })
 set("DiagnosticError", { fg = c.red, italic = true })
@@ -72,9 +71,10 @@ local kind = {
     },
   },
   docs = {
-    scheme = { fg = c.smoke, bg = c.grey },
+    scheme = { bg = c.darkgrey },
     group = {
       "BlinkCmpDoc",
+      "CursorLine",
     },
   },
   search = {
@@ -83,7 +83,6 @@ local kind = {
       "Search",
       "Pmenu",
       "IncSearch",
-      "BlinkCmpDoc",
     },
   },
   func = {
