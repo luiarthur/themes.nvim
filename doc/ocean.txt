@@ -1,13 +1,14 @@
-*noir* Color scheme with mostly reds and greys
+*ocean* Color scheme with mostly reds and greys
 >
- _  _ ____ _ ____
- |\ | |  | | |__/
- | \| |__| | |  \
+   ____  ________  ____ _____
+  / __ \/ ___/ _ \/ __ `/ __ \
+ / /_/ / /__/  __/ /_/ / / / /
+ \____/\___/\___/\__,_/_/ /_/
 <
 * Author: Arthur Lui
 * Date: 6 April, 2026
 * Repo: https://github.com/luiarthur/themes.nvim
-* Inspired by: https://coolors.co/palettes/popular/red
+* Inspired by: https://coolors.co/palette/588b8b-ffffff-ffd5c2-f28f3b-c8553d-2d3047-93b7be
 
 To apply the color scheme, add the following to ~/.config/nvim/init.lua`:
 >lua
@@ -16,7 +17,7 @@ To apply the color scheme, add the following to ~/.config/nvim/init.lua`:
    -- optionally, add other packages
  })
 <
-Then, execute `:colorscheme noir` in an nvim session.
+Then, execute `:colorscheme ocean` in an nvim session.
 
 Get help on each option in nvim by (e.g. help on SpellBad):
 >vim

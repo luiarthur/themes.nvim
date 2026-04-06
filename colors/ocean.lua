@@ -12,4 +12,4 @@ local color_scheme = {
   special       = "#FFF5EE", -- smoke
 }
 
-require("theme").run("noir", color_scheme)
+require("theme").run("ocean", color_scheme)

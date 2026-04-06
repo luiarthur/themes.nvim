@@ -1,13 +1,13 @@
-*noir* Color scheme with mostly reds and greys
+*sunset* Color scheme with mostly reds and greys
 >
- _  _ ____ _ ____
- |\ | |  | | |__/
- | \| |__| | |  \
+ ____ _  _ _  _ ____ ____ ___
+ [__  |  | |\ | [__  |___  |
+ ___] |__| | \| ___] |___  |
 <
 * Author: Arthur Lui
 * Date: 6 April, 2026
 * Repo: https://github.com/luiarthur/themes.nvim
-* Inspired by: https://coolors.co/palettes/popular/red
+* Inspired by: https://coolors.co/palette/3d5a80-98c1d9-e0fbfc-e7b4a5-ee6c4d-293241
 
 To apply the color scheme, add the following to ~/.config/nvim/init.lua`:
 >lua
@@ -16,7 +16,7 @@ To apply the color scheme, add the following to ~/.config/nvim/init.lua`:
    -- optionally, add other packages
  })
 <
-Then, execute `:colorscheme noir` in an nvim session.
+Then, execute `:colorscheme sunset` in an nvim session.
 
 Get help on each option in nvim by (e.g. help on SpellBad):
 >vim

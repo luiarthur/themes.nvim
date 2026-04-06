@@ -12,4 +12,4 @@ local color_scheme = {
   special       = "#e0fbfc", -- light cyan
 }
 
-require("theme").run("noir", color_scheme)
+require("theme").run("sunset", color_scheme)
