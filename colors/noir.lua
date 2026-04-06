@@ -71,6 +71,12 @@ local kind = {
       "TabLine",
     },
   },
+  docs = {
+    scheme = { fg = c.smoke, bg = c.grey },
+    group = {
+      "BlinkCmpDoc",
+    },
+  },
   search = {
     scheme = { bg = c.grey, bold = true },
     group = {
