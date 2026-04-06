@@ -20,7 +20,7 @@ local c = {
   cursor_line   = "#102b3f", -- deep space blue
 
   literal       = "#EF233C", -- red
-  function_name = "#61A1D7", -- blue grey
+  function_name = "#8395C1", -- serene blue
 
   comment       = "#5c677d", -- blue slate
   primary_fg    = "#979dac", -- cool steel
