@@ -10,14 +10,16 @@ vim.g.colors_name = "noir"
 
 -- Colors
 local c = {
-  black = "#0e1111", -- soft black
-  maroon = "#944547",
-  red = "#FF6961",   -- pastel red
-  pink = "#DCAE96",  -- dusty rose
+  carbon = "#161A1D", -- soft black
   darkgrey = "#3B3B3B",
+
+  red = "#FF6961",  -- pastel red
+  pink = "#DCAE96", -- dusty rose
+
   grey = "#696969",
   lightgrey = "#ADADAD",
-  white = "#FFF5EE", -- soft white
+
+  smoke = "#FFF5EE", -- soft white
 }
 
 local function set(group, options)
@@ -25,14 +27,15 @@ local function set(group, options)
 end
 
 -- Special colors
-set("Normal", { fg = c.lightgrey, bg = c.black })
-set("SpellRare", { fg = c.maroon })
+set("Normal", { fg = c.lightgrey, bg = c.carbon })
+set("SpellRare", { fg = c.red })
 set("Constant", { fg = c.lightgrey })
 
-set("CurSearch", { fg = c.black, bg = c.white, bold = true })
-set("PmenuThumb", { fg = c.black, bg = c.white })
-set("WildMenu", { fg = c.black, bg = c.white })
+set("CurSearch", { fg = c.carbon, bg = c.smoke, bold = true })
+set("PmenuThumb", { fg = c.carbon, bg = c.smoke })
+set("WildMenu", { fg = c.carbon, bg = c.smoke })
 set("Underlined", { fg = c.lightgrey, underline = true })
+set("CursorLine", { bg = c.darkgrey })
 
 set("DiagnosticWarn", { fg = c.pink, italic = true })
 set("DiagnosticError", { fg = c.red, italic = true })
@@ -69,7 +72,7 @@ local kind = {
     },
   },
   search = {
-    scheme = { fg = c.white, bg = c.grey, bold = true },
+    scheme = { bg = c.grey, bold = true },
     group = {
       "Search",
       "Pmenu",
@@ -101,8 +104,14 @@ local kind = {
       "@constructor",
     }
   },
+  match = {
+    scheme = { fg = c.smoke },
+    group = {
+      "MatchParen",
+    },
+  },
   define = {
-    scheme = { fg = c.white },
+    scheme = { fg = c.lightgrey, bold = true },
     group = {
       "Define",
       "DiffAdd",
@@ -111,7 +120,6 @@ local kind = {
       "DiffCommon",
       "Include",
       "Label",
-      "MatchParen",
       "Operator",
       "PreCondit",
       "PreProc",
@@ -127,7 +135,7 @@ local kind = {
     },
   },
   error = {
-    scheme = { fg = c.white, bg = c.maroon },
+    scheme = { fg = c.carbon, bg = c.red, bold = true },
     group = {
       "Error",
       "ErrorMsg",
@@ -138,16 +146,17 @@ local kind = {
     }
   },
   cursor = {
-    scheme = { fg = c.black, bg = c.pink },
+    scheme = { fg = c.carbon, bg = c.pink },
     group = {
-      "Cursor",
       "CursorColumn",
+      "ColorColumn",
+      "Cursor",  -- cursor color (ignored in terminal)
+      "iCursor", -- cursor in insert mode (ignored in terminal)
     },
   },
   visual = {
-    scheme = { fg = c.black, bg = c.white, bold = true },
+    scheme = { fg = c.carbon, bg = c.smoke, bold = true },
     group = {
-      "ColorColumn",
       "PmenuSbar",
       "PmenuSel",
       "Visual",
@@ -155,14 +164,13 @@ local kind = {
     },
   },
   special = {
-    scheme = { fg = c.black, bg = c.white },
+    scheme = { fg = c.carbon, bg = c.smoke },
     group = {
       "SpecialKey",
-      "iCursor",
     },
   },
   diff = {
-    scheme = { fg = c.black, bg = c.white, bold = true },
+    scheme = { fg = c.carbon, bg = c.smoke, bold = true },
     group = {
       "DiffChange",
       "DiffChanged",
