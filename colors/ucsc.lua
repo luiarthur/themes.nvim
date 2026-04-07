@@ -1,4 +1,4 @@
--- https://coolors.co/palette/0a1128-001f54-034078-1282a2-fefcfb
+-- https://coolors.co/palette
 local color_scheme = {
   primary_bg    = "#161A1D", -- carbon
   cursor_line   = "#003C6B", -- navy
@@ -7,7 +7,8 @@ local color_scheme = {
   function_name = "#12A5DC", -- turqoise
 
   comment       = "#2C82B8", -- blue
-  primary_fg    = "#FAC500", -- Gold
+  -- primary_fg    = "#FAC500", -- Gold
+  primary_fg    = "#FFDB57", -- mustard
 
   special       = "#FFF5EE", -- smoke
 }
