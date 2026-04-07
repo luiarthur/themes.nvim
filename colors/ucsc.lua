@@ -8,7 +8,8 @@ local color_scheme = {
 
   comment       = "#2C82B8", -- blue
   -- primary_fg    = "#FAC500", -- Gold
-  primary_fg    = "#FFDB57", -- mustard
+  -- primary_fg    = "#FFDB57", -- mustard
+  primary_fg    = "#FAE588", -- jasmine
 
   special       = "#FFF5EE", -- smoke
 }
