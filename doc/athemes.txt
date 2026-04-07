@@ -27,6 +27,7 @@ The current themes (and linked inspirations) are:
 - sunset: https://coolors.co/palette/3d5a80-98c1d9-e0fbfc-e7b4a5-ee6c4d-293241
 - ucsc: https://www.eggradients.com/palette/uc-santa-cruz-colors
 - berry: https://coolors.co/palette/f9dbbd-ffa5ab-da627d-a53860-450920
+- byuh: https://marcom.byuh.edu/colors
 
 Get help on each option in nvim by (e.g. help on SpellBad):
 >vim

@@ -1,4 +1,4 @@
-demo-py-script := source_dir() / "tests/test.py"
+demo-py-script := source_dir() / "tests/bad.py"
 
 @help:
     just -l -u
