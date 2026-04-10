@@ -56,11 +56,12 @@ function M.run(color_scheme_name, c)
         "TabLine",
       },
     },
-    docs = {
+    visual = {
       scheme = { bg = c.cursor_line },
       group = {
         "BlinkCmpDoc",
         "CursorLine",
+        "Visual",
       },
     },
     search = {
@@ -145,12 +146,11 @@ function M.run(color_scheme_name, c)
         "iCursor", -- cursor in insert mode (ignored in terminal)
       },
     },
-    visual = {
+    menu = {
       scheme = { fg = c.primary_bg, bg = c.special, bold = true },
       group = {
         "PmenuSbar",
         "PmenuSel",
-        "Visual",
         "VisualNOS",
       },
     },
