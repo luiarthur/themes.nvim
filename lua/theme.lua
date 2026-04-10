@@ -103,7 +103,7 @@ function M.run(color_scheme_name, c)
       },
     },
     define = {
-      scheme = { fg = c.special, bold = true },
+      scheme = { fg = c.special },
       group = {
         "Define",
         "DiffAdd",
