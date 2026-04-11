@@ -1,14 +1,14 @@
+-- black to grey
+-- https://coolors.co/gradient-palette/efe9e9-100303?number=6
 local color_scheme = {
-  primary_bg    = "#161A1D", -- carbon
-  cursor_line   = "#3B3B3B", -- darkgrey
+  primary_bg    = "#100303",
+  cursor_line   = "#3D3131",
+  comment       = "#695F5F",
+  function_name = "#968D8D",
+  primary_fg    = "#C2BBBB",
+  special       = "#EFE9E9",
 
-  literal       = "#FF6961", -- patel red
-  function_name = "#DCAE96", -- pink
-
-  comment       = "#696969", -- grey
-  primary_fg    = "#ADADAD", -- lightgrey
-
-  special       = "#FFF5EE", -- smoke
+  literal       = "#ED0000",
 }
 
 require("theme").run("noir", color_scheme)
