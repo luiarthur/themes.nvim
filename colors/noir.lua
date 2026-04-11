@@ -1,11 +1,11 @@
 -- black to grey
--- https://coolors.co/gradient-palette/efe9e9-1f1f1f?number=6
+-- https://coolors.co/gradient-palette/efe9e9-0f0e0e?number=6
 local color_scheme = {
-  primary_bg    = "#1F1F1F",
-  cursor_line   = "#494747",
-  comment       = "#727070",
-  function_name = "#9C9898",
-  primary_fg    = "#C5C1C1",
+  primary_bg    = "#0F0E0E",
+  cursor_line   = "#3C3A3A",
+  comment       = "#696666",
+  function_name = "#959191",
+  primary_fg    = "#C2BDBD",
   special       = "#EFE9E9",
 
   literal       = "#ED0000",
