@@ -1,14 +1,14 @@
-*athemes* Arthur's fun color schemes
+*themes* Arthur's fun color schemes
 >
- ____ ___ _  _ ____ _  _ ____ ____
- |__|  |  |__| |___ |\/| |___ [__
- |  |  |  |  | |___ |  | |___ ___]
+ ___ _  _ ____ _  _ ____ ____
+  |  |__| |___ |\/| |___ [__
+  |  |  | |___ |  | |___ ___]
 <
 * Author: Arthur Lui
 * Date: 6 April, 2026
 * Repo: https://github.com/luiarthur/themes.nvim
 * Inspired by: https://coolors.co/palettes
-* ASCII Art Generation: `pyfiglet -f athemes`
+* ASCII Art Generation: `pyfiglet -f themes`
 
 To apply the color scheme, add the following to ~/.config/nvim/init.lua`:
 >lua
@@ -20,14 +20,17 @@ To apply the color scheme, add the following to ~/.config/nvim/init.lua`:
 Then, execute `:colorscheme noir` in an nvim session.
 
 The current themes (and linked inspirations) are:
-- noir: https://coolors.co/palettes/popular/red
-- usa: https://coolors.co/palettes
-- byu: https://coolors.co/palette/0a1128-001f54-034078-1282a2-fefcfb
-- ocean: https://coolors.co/palette/588b8b-ffffff-ffd5c2-f28f3b-c8553d-2d3047-93b7be
-- sunset: https://coolors.co/palette/3d5a80-98c1d9-e0fbfc-e7b4a5-ee6c4d-293241
-- ucsc: https://www.eggradients.com/palette/uc-santa-cruz-colors
 - berry: https://coolors.co/palette/f9dbbd-ffa5ab-da627d-a53860-450920
 - byuh: https://marcom.byuh.edu/colors
+- byu: https://coolors.co/palette/0a1128-001f54-034078-1282a2-fefcfb
+- grinch
+- noir: https://coolors.co/palettes/popular/red
+- ocean: https://coolors.co/palette/588b8b-ffffff-ffd5c2-f28f3b-c8553d-2d3047-93b7be
+- red
+- sunset: https://coolors.co/palette/3d5a80-98c1d9-e0fbfc-e7b4a5-ee6c4d-293241
+- ucsc: https://www.eggradients.com/palette/uc-santa-cruz-colors
+- usa: https://coolors.co/palettes
+- yellow
 
 Get help on each option in nvim by (e.g. help on SpellBad):
 >vim
