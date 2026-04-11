@@ -1,13 +1,14 @@
--- black to grey
--- https://coolors.co/gradient-palette/efe9e9-0f0e0e?number=6
+-- https://coolors.co/gradient-palette/f2f0f0-0f0e0e?number=7
 local color_scheme = {
+  -- 7 shades of grey
   primary_bg    = "#0F0E0E",
-  cursor_line   = "#3C3A3A",
-  comment       = "#696666",
-  function_name = "#959191",
-  primary_fg    = "#C2BDBD",
-  special       = "#EFE9E9",
+  cursor_line   = "#353434",
+  comment       = "#5B5959",
+  function_name = "#817F7F",
+  primary_fg    = "#CCCACA",
+  special       = "#F2F0F0",
 
+  -- A single non-grey color
   literal       = "#ED0000",
 }
 
