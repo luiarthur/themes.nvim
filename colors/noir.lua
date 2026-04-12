@@ -2,7 +2,7 @@
 local color_scheme = {
   -- 7 shades of grey
   primary_bg    = "#0F0E0E",
-  cursor_line   = "#353434",
+  cursor_line   = "#252525",
   comment       = "#5B5959",
   function_name = "#817F7F",
   primary_fg    = "#CCCACA",
