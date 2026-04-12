@@ -26,9 +26,13 @@ The current themes (and linked inspirations) are:
 - byu: https://coolors.co/palette/0a1128-001f54-034078-1282a2-fefcfb
 - grinch
 - noir: https://coolors.co/palettes/popular/red
+- lavender: https://coolors.co/palette/22223b-4a4e69-9a8c98-c9ada7-f2e9e4
+- misty: https://coolors.co/palette/223843-eff1f3-dbd3d8-d8b4a0-d77a61
 - ocean: https://coolors.co/palette/588b8b-ffffff-ffd5c2-f28f3b-c8553d-2d3047-93b7be
+- olive: https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25
 - orange
 - red
+- serenity: https://coolors.co/palette/033f63-28666e-7c9885-b5b682-fedc97
 - sunset: https://coolors.co/palette/3d5a80-98c1d9-e0fbfc-e7b4a5-ee6c4d-293241
 - ucsc: https://www.eggradients.com/palette/uc-santa-cruz-colors
 - usa: https://coolors.co/palettes
