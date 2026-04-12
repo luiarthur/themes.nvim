@@ -20,12 +20,14 @@ To apply the color scheme, add the following to ~/.config/nvim/init.lua`:
 Then, execute `:colorscheme noir` in an nvim session.
 
 The current themes (and linked inspirations) are:
+- autumn
 - berry: https://coolors.co/palette/f9dbbd-ffa5ab-da627d-a53860-450920
 - byuh: https://marcom.byuh.edu/colors
 - byu: https://coolors.co/palette/0a1128-001f54-034078-1282a2-fefcfb
 - grinch
 - noir: https://coolors.co/palettes/popular/red
 - ocean: https://coolors.co/palette/588b8b-ffffff-ffd5c2-f28f3b-c8553d-2d3047-93b7be
+- orange
 - red
 - sunset: https://coolors.co/palette/3d5a80-98c1d9-e0fbfc-e7b4a5-ee6c4d-293241
 - ucsc: https://www.eggradients.com/palette/uc-santa-cruz-colors
