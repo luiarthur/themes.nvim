@@ -13,7 +13,6 @@ function M.run(color_scheme_name, c)
   end
 
   -- Special colors
-  set("Normal", { fg = c.primary_fg, bg = c.primary_bg })
   set("SpellRare", { fg = c.literal })
   set("Constant", { fg = c.primary_fg })
 
@@ -28,6 +27,13 @@ function M.run(color_scheme_name, c)
 
   -- Kind
   local kind = {
+    normal = {
+      scheme = { fg = c.primary_fg, bg = c.primary_bg },
+      group = {
+        "Normal",
+        "@variable",
+      }
+    },
     literal = {
       scheme = { fg = c.literal },
       group = {

@@ -31,6 +31,7 @@ The current themes (and linked inspirations) are:
 - ocean: https://coolors.co/palette/588b8b-ffffff-ffd5c2-f28f3b-c8553d-2d3047-93b7be
 - olive: https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25
 - orange
+- primary
 - red
 - serenity: https://coolors.co/palette/033f63-28666e-7c9885-b5b682-fedc97
 - sunset: https://coolors.co/palette/3d5a80-98c1d9-e0fbfc-e7b4a5-ee6c4d-293241
