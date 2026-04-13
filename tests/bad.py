@@ -11,6 +11,9 @@ import sys
 from pathlib import Path
 from typing import TypedDict
 
+import numpy as np
+from numpy import typing
+
 
 class State(TypedDict):
     mu: float
@@ -23,6 +26,10 @@ func({"A": 1})
 
 
 class Bob:
+    @property
+    def f(self):
+        return self.x
+
     def __init__(self, x):
         self.x = x
 
@@ -42,5 +49,6 @@ def process(state: State) -> float:
 state: State = [{"mu": 1.0}]
 
 for i, s in enumerate(state):
+    """Help"""
     out = process(s)
     print(f"{i}: {out}")

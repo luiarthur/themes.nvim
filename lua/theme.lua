@@ -106,7 +106,7 @@ function M.run(color_scheme_name, c)
       }
     },
     match = {
-      scheme = { fg = c.special },
+      scheme = { fg = c.special, bold = true },
       group = {
         "MatchParen",
       },
