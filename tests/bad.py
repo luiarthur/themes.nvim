@@ -1,5 +1,9 @@
 # These are some unhelpful comments.
 
+# NOTE: This is a note
+# TODO: This is a todo item
+# FIXME: This is a fixme item
+
 # These are unused imports that should yield warnings
 import os
 import random
