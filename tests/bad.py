@@ -27,12 +27,20 @@ func({"A": 1})
 
 class Bob:
     @property
-    def f(self):
+    def y(self):
         return self.x
 
     def __init__(self, x):
         self.x = x
 
+
+d = {
+    "a": 1,
+    "b": 2,
+    "c": 3,
+    "d": 4,
+    "e": 5,
+}
 
 bob = Bob(111)
 
@@ -47,6 +55,7 @@ def process(state: State) -> float:
 
 
 state: State = [{"mu": 1.0}]
+
 
 for i, s in enumerate(state):
     """Help"""
