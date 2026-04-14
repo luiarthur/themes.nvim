@@ -9,7 +9,7 @@ import os
 import random
 import sys
 from pathlib import Path
-from typing import TypedDict
+from typing import NamedTuple, TypedDict
 
 import numpy as np
 from numpy import typing
@@ -31,7 +31,10 @@ class Bob:
         return self.x
 
     def __init__(self, x):
-        self.x = x
+        self.x = x + 1
+        self.z = x * 1
+        self.w = x - 1
+        self.u = x / 1
 
 
 d = {
@@ -47,6 +50,8 @@ bob = Bob(111)
 x: bool = True
 False
 
+from typing import List
+
 
 def process(state: State) -> float:
     # This should yield never used warning
@@ -54,10 +59,11 @@ def process(state: State) -> float:
     return state["mu"] * 100
 
 
-state: State = [{"mu": 1.0}]
+states: list[State] = [{"mu": 1.0}]
+state: State = {"mu": 1.0}
+process(state)
 
-
-for i, s in enumerate(state):
+for i, s in enumerate(states):
     """Help"""
     out = process(s)
     print(f"{i}: {out}")

@@ -2,14 +2,21 @@
 
 ## Subheading
 
+This is **bold**
+This is ~~strike out~~
+
+Underlined
+==========
+
+
 ```py
 import numpy as np
 x += 1
 ```
 
-- [ ] This is a missspelling.
+- [ ] This is misspeled
 - [ ] Inline code `alpha + beta`
-- [ ] *What* is **this**?
+- [ ] *Italic* and **bold**
 
 Hello
 =====
@@ -18,3 +25,7 @@ Hello
 > this is a quote
 > this is a quote
 > this is a quote
+
+Hello world
+
+[1]: https://yahoo.com
