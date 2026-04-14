@@ -2,7 +2,7 @@
 local color_scheme = {
   primary_bg    = "#161A1D", -- carbon
 
-  cursor_line   = "#22223b",
+  visual        = "#22223b",
   comment       = "#4a4e69",
   literal       = "#C9ADA7",
   function_name = "#9A8C98",

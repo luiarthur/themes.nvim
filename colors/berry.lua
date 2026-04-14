@@ -1,7 +1,7 @@
 -- https://coolors.co/palette/f9dbbd-ffa5ab-da627d-a53860-450920
 local color_scheme = {
   primary_bg    = "#161A1D", -- carbon
-  cursor_line   = "#450920", -- night-bordeaux
+  visual        = "#450920", -- night-bordeaux
 
   literal       = "#da627d", -- blush-rose
   function_name = "#ffa5ab", -- cotton-candy

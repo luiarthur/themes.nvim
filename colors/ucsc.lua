@@ -1,7 +1,7 @@
 -- https://coolors.co/palette
 local color_scheme = {
   primary_bg    = "#161A1D", -- carbon
-  cursor_line   = "#003C6B", -- navy
+  visual        = "#003C6B", -- navy
 
   literal       = "#2B9FAE", -- cyan
   function_name = "#12A5DC", -- turqoise

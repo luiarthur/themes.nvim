@@ -3,7 +3,7 @@ local color_scheme = {
   -- Colors are listed from darkest to lightest
   primary_bg    = "#161A1D", -- carbon
 
-  cursor_line   = "#023B5F",
+  visual        = "#023B5F",
   comment       = "#28666E",
   literal       = "#7C9885",
   function_name = "#B5B682",

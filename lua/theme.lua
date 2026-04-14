@@ -67,10 +67,12 @@ function M.run(color_scheme_name, c)
       },
     },
     visual = {
-      scheme = { bg = c.cursor_line },
+      scheme = { bg = c.visual },
       group = {
         "BlinkCmpDoc",
         "CursorLine",
+        "CursorColumn",
+        "ColorColumn",
         "Visual",
       },
     },

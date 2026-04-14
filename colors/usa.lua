@@ -1,6 +1,6 @@
 local color_scheme = {
   primary_bg    = "#161A1D", -- carbon
-  cursor_line   = "#102b3f", -- deep space blue
+  visual        = "#102b3f", -- deep space blue
 
   literal       = "#EF233C", -- red
   function_name = "#8395C1", -- serene blue

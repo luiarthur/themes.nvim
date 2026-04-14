@@ -1,6 +1,6 @@
 local color_scheme = {
   primary_bg    = "#161A1D", -- carbon
-  cursor_line   = "#3B3B3B", -- darkgrey
+  visual        = "#3B3B3B", -- darkgrey
 
   literal       = "#DD3D5D", -- red
   function_name = "#c69214", -- gold
