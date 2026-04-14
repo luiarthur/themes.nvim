@@ -13,7 +13,6 @@ function M.run(color_scheme_name, c)
   end
 
   -- Special colors
-  set("SpellRare", { fg = c.literal })
   set("Constant", { fg = c.primary_fg })
 
   set("PmenuThumb", { fg = c.primary_bg, bg = c.special })
@@ -159,14 +158,19 @@ function M.run(color_scheme_name, c)
       },
     },
     error = {
-      scheme = { fg = c.special, bg = c.literal, bold = true },
+      scheme = { fg = c.primary_bg, bg = c.literal, bold = true },
       group = {
         "Error",
         "ErrorMsg",
+      }
+    },
+    spell = {
+      scheme = { fg = c.special, bg = c.literal, bold = true },
+      group = {
         "SpellCap",
+        "SpellRare",
         "SpellLocal",
         "SpellBad",
-        "DiffText",
       }
     },
     cursor = {
