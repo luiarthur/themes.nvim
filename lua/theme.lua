@@ -16,7 +16,6 @@ function M.run(color_scheme_name, c)
   set("SpellRare", { fg = c.literal })
   set("Constant", { fg = c.primary_fg })
 
-  set("CurSearch", { fg = c.primary_bg, bg = c.special, bold = true })
   set("PmenuThumb", { fg = c.primary_bg, bg = c.special })
   set("WildMenu", { fg = c.primary_bg, bg = c.special })
   set("Underlined", { fg = c.primary_fg, underline = true })
@@ -24,6 +23,13 @@ function M.run(color_scheme_name, c)
   set("DiagnosticWarn", { fg = c.function_name, italic = true })
   set("DiagnosticError", { fg = c.literal, italic = true })
   set("DiagnosticHint", { fg = c.comment, italic = true })
+
+  set("CurSearch", {
+    fg = c.primary_bg,
+    bg = c.special,
+    italic = true,
+    bold = true
+  })
 
   -- Kind
   local kind = {
@@ -90,6 +96,9 @@ function M.run(color_scheme_name, c)
         "Function",
         "SpecialComment",
         "Title",
+        "@markup.list",
+        "@markup.link.label",
+        "@punctuation.special.markdown",
       },
     },
     delim = {
@@ -107,10 +116,23 @@ function M.run(color_scheme_name, c)
         "@constructor",
       }
     },
-    match = {
+    alert = {
       scheme = { fg = c.special, bold = true },
       group = {
         "MatchParen",
+        "@comment.error",
+        "@comment.warning",
+        "@comment.todo",
+        "@comment.note",
+        "@diff.delta",
+        "DiffChange",
+        "DiffChanged",
+        "@markup.heading",
+        "@markup.strong",
+        "@comment.error",
+        "@comment.warning",
+        "@comment.todo",
+        "@comment.note",
       },
     },
     define = {
@@ -133,6 +155,7 @@ function M.run(color_scheme_name, c)
         "Todo",
         "Type",
         "Typedef",
+        "CursorLineNr",
       },
     },
     error = {
@@ -149,8 +172,6 @@ function M.run(color_scheme_name, c)
     cursor = {
       scheme = { fg = c.primary_bg, bg = c.function_name },
       group = {
-        "CursorColumn",
-        "ColorColumn",
         "Cursor",  -- cursor color (ignored in terminal)
         "iCursor", -- cursor in insert mode (ignored in terminal)
       },
@@ -169,11 +190,30 @@ function M.run(color_scheme_name, c)
         "SpecialKey",
       },
     },
-    diff = {
-      scheme = { fg = c.primary_bg, bg = c.special, bold = true },
+    italic = {
+      scheme = { fg = c.primary_fg, italic = true },
       group = {
-        "DiffChange",
-        "DiffChanged",
+        "@markup.italic",
+        "@markup.quote",
+        "@markup.math",
+        "@markup.raw",
+      },
+    },
+    underline = {
+      scheme = { underline = true },
+      group = {
+        "@markup.link.url",
+        "@markup.underline",
+        "DiagnosticUnderlineWarn",
+        "DiagnosticDeprecated",
+        "DiffText",
+      },
+    },
+    strikethrough = {
+      scheme = { strikethrough = true },
+      group = {
+        "@markup.strikethrough",
+        "DiagnosticUnnecessary",
       },
     },
   }
