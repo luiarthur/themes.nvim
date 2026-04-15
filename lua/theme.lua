@@ -165,7 +165,13 @@ function M.run(color_scheme_name, c)
       }
     },
     spell = {
-      scheme = { fg = c.special, bg = c.literal, bold = true },
+      scheme = {
+        fg = c.literal,
+        sp = c.literal,
+        underdashed = true,
+        italic = true,
+        bold = true,
+      },
       group = {
         "SpellCap",
         "SpellRare",
