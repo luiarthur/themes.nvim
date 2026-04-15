@@ -27,9 +27,7 @@ def process(state: State) -> float:
     return state["mu"] * 100
 
 
-state: State = [
-    {"mu": 1.0},
-]
+state: list[State] = [{"mu": 1.0}]
 
 for i, s in enumerate(state):
     out = process(s)
