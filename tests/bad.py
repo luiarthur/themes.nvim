@@ -9,7 +9,7 @@ import os
 import random
 import sys
 from pathlib import Path
-from typing import NamedTuple, TypedDict
+from typing import List, TypedDict
 
 import numpy as np
 from numpy import typing
