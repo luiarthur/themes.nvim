@@ -24,7 +24,7 @@ The current themes (and linked inspirations) are:
 - berry: https://coolors.co/palette/f9dbbd-ffa5ab-da627d-a53860-450920
 - byuh: https://marcom.byuh.edu/colors
 - byu: https://coolors.co/palette/0a1128-001f54-034078-1282a2-fefcfb
-- grinch
+- matrix
 - noir: https://coolors.co/palettes/popular/red
 - lavender: https://coolors.co/palette/22223b-4a4e69-9a8c98-c9ada7-f2e9e4
 - misty: https://coolors.co/palette/223843-eff1f3-dbd3d8-d8b4a0-d77a61

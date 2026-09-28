@@ -13,4 +13,4 @@ local color_scheme = {
   special       = "#FFF5EE", -- smoke
 }
 
-require("theme").run("grinch", color_scheme)
+require("theme").run("matrix", color_scheme)
